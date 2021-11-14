@@ -7,21 +7,7 @@
 <h1>My Videos</h1>
 <div id="root"></div>
 
-<script>
-  async function getUploads() {
-      let response = await fetch("https://myvideo.gigalixirapp.com/api/uploads")
-      alert(response.status)
-      alert(response.statusText)
-      
-      if(response.status === 200) {
-	  document.getElementById("root").innerHTML = response.json()
-      } else {
-	  document.getElementById("root").innerHTML = response.statusText
-      }
-  }
-
-getUploads()
-</script>
+<script src="js/app.js"></script>
 </body>
 
 
