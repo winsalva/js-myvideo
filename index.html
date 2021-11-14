@@ -12,7 +12,9 @@
       let response = await fetch("https://myvideo.gigalixirapp.com/api/uploads")
       if(response.status === 200) {
 	  document.getElementById("root").innerHTML = response.json()
+	  alert(response.status)
       } else {
+	  alert(response.status)
 	  document.getElementById("root").innerHTML = response.statusText
       }
   }
