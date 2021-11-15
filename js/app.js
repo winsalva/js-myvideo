@@ -1,3 +1,5 @@
+AOS.init();
+
 function getUploads() {
     let url = 'https://myvideo.gigalixirapp.com/api/uploads';
     try {
