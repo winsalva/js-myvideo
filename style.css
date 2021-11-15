@@ -2,3 +2,7 @@ body {
     background-color: #fff;
     font-family: "Yuji Boku", serif;
 }
+.content {
+    border: 1px solid #aaa;
+    margin: 1rem 0;
+}
