@@ -19,8 +19,8 @@ async function renderUploads() {
     data.forEach(upload => {
         let htmlSegment =
 	    `<div class="uploads">
-<h2>${upload.title}>
-                        </div>`;
+              <h2>${upload.title}</h2>
+              </div>`;
 
         html += htmlSegment;
     });
