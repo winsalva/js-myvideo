@@ -4,6 +4,7 @@ async function getUploads() {
     let url = 'https://myvideo.gigalixirapp.com/api/uploads';
     try {
         let res = await fetch(url);
+        alert(res);
         return await res.json();
     } catch (error) {
         //console.log(error);
